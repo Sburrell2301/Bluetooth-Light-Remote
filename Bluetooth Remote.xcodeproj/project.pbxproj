@@ -14,6 +14,8 @@
 		692ED40A2073EAC8000C89AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692ED4082073EAC8000C89AC /* LaunchScreen.storyboard */; };
 		692ED4152073EAC8000C89AC /* Bluetooth_RemoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692ED4142073EAC8000C89AC /* Bluetooth_RemoteTests.swift */; };
 		692ED4202073EAC8000C89AC /* Bluetooth_RemoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692ED41F2073EAC8000C89AC /* Bluetooth_RemoteUITests.swift */; };
+		693473E3208664EF0088E98D /* CoreBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693473E2208664EF0088E98D /* CoreBluetoothViewController.swift */; };
+		693473E62087A0D60088E98D /* FixErrors?ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693473E52087A0D60088E98D /* FixErrors?ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		692ED41B2073EAC8000C89AC /* Bluetooth RemoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth RemoteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		692ED41F2073EAC8000C89AC /* Bluetooth_RemoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_RemoteUITests.swift; sourceTree = "<group>"; };
 		692ED4212073EAC8000C89AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		693473E2208664EF0088E98D /* CoreBluetoothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreBluetoothViewController.swift; sourceTree = "<group>"; };
+		693473E42086675C0088E98D /* HelloBluetoothMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloBluetoothMac.entitlements; sourceTree = "<group>"; };
+		693473E52087A0D60088E98D /* FixErrors?ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FixErrors?ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 				692ED4132073EAC8000C89AC /* Bluetooth RemoteTests */,
 				692ED41E2073EAC8000C89AC /* Bluetooth RemoteUITests */,
 				692ED3FD2073EAC8000C89AC /* Products */,
+				693473E42086675C0088E98D /* HelloBluetoothMac.entitlements */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				692ED3FF2073EAC8000C89AC /* AppDelegate.swift */,
+				693473E2208664EF0088E98D /* CoreBluetoothViewController.swift */,
+				693473E52087A0D60088E98D /* FixErrors?ViewController.swift */,
 				692ED4012073EAC8000C89AC /* ViewController.swift */,
 				692ED4032073EAC8000C89AC /* Main.storyboard */,
 				692ED4062073EAC8000C89AC /* Assets.xcassets */,
@@ -259,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				693473E3208664EF0088E98D /* CoreBluetoothViewController.swift in Sources */,
 				692ED4022073EAC8000C89AC /* ViewController.swift in Sources */,
 				692ED4002073EAC8000C89AC /* AppDelegate.swift in Sources */,
+				693473E62087A0D60088E98D /* FixErrors?ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
